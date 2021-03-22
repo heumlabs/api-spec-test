@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="api-spec-test",
+    name="api_spec_test",
     version="0.0.1",
     author="Sangmin Kang",
     author_email="ksmin@heumlabs.io",
