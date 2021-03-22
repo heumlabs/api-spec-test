@@ -1,2 +1,2 @@
-# api-spec-test
-API spec. 기반 테스트 라이브러리
+# API Spec. test
+APISpecTest is a python REST API test library that tests based on API specification.
