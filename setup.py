@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="api_spec_test",
-    version="0.0.1",
+    version="0.1.0",
     author="Sangmin Kang",
     author_email="ksmin@heumlabs.io",
     description="A python REST API test library that tests based on API specification.",
