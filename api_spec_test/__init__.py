@@ -29,7 +29,7 @@ class APISpecTestCase(TestCase):
 
     @property
     @abstractmethod
-    def api_specs(self) -> List[APISpec]:
+    def test_scenario(self) -> List[APISpec]:
         """ 테스트 대상 API 엔드포인트의 구현 스펙을 정의 """
         raise SkipTest
 
@@ -105,7 +105,7 @@ class APISpecTestCase(TestCase):
 
         print(f"Starting API sepcs of the '{self.__class__.__name__}'...")
 
-        for idx, api_spec in enumerate(self.api_specs):
+        for idx, api_spec in enumerate(self.test_scenario):
             print(f" - Testing the '{api_spec.title}' API sepc...")
 
             users = api_spec.users
